@@ -1,16 +1,10 @@
 import React from 'react';
-import { View, Text } from 'react-native';
 
 import './config/ReactotronConfig';
+import Routes from './routes';
 
 function App() {
-  return (
-    <View>
-      <Text>111111111111111111 </Text>
-    </View>
-  );
+  return <Routes />;
 }
-
-console.tron.log('Hello world');
 
 export default App;
